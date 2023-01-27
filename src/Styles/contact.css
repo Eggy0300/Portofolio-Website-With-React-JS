@@ -1,0 +1,90 @@
+.contact_cont {
+    grid-template-columns: repeat(1, max-content);
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+.contact_title {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.contact_info {
+    display: grid;
+    column-gap: 1.5rem;
+    grid-template-columns: repeat(3, 265px);
+}
+
+.contact_card {
+    background-color: white;
+    padding: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    text-align: center;
+}
+
+.contact_card-icon {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 0.25rem;
+}
+
+.contact_card-title, .contact_card-data {
+    font-size: 0.813rem; 
+}
+
+.contact_card-title {
+    font-weight: 500;
+}
+
+.contact_card-data {
+    display: block;
+    margin-bottom: 0.75rem;
+    color: #4a4b4b;
+}
+
+.contact_butt {
+    color: #4a4b4b;
+    font-size: 0.813rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.25rem;
+}
+
+.contact_butt-icon {
+    font-size: 1rem;
+    transform: 0.3s;
+}
+
+.contact_butt:hover {
+    color: black;
+}
+
+.contact_butt:hover .contact_butt-icon {
+    transform: translate(0.25rem);
+    color: black;
+}
+
+/* SCREEN CONFIG */
+
+@media screen and (max-width: 900px){
+    .contact_info {
+        grid-template-columns: repeat(2, 265px);
+        row-gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 576px){
+    .contact_info {
+        grid-template-columns: repeat(1, 265px);
+        row-gap: 2rem;
+    }
+}
+

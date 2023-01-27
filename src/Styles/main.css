@@ -1,0 +1,150 @@
+:root {
+    --header-height: 3rem;
+}
+
+/* BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body, button, input, textarea {
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+body {
+    background-color: rgb(243, 243, 243);
+    color: black;
+}
+
+h1, h2, h3 {
+    color: black;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* CSS CLASSES */
+
+.section {
+    padding: 6rem 0 2rem;
+}
+
+.section_title {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.section_subtitle {
+    display: block;
+    font-size: 0.8rem;
+    margin-bottom: 4rem;
+}
+
+.section_title, .section_subtitle {
+    text-align: center;
+}
+
+/* LAYOUT */
+
+.cont {
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+/* BUTTON */
+
+.butt {
+    display: inline-block;
+    background-color: gray;
+    color: white;
+    padding: 1.25rem 2rem;
+    border-radius: 1rem;
+    font-weight: 500;
+}
+
+.butt:hover {
+    background-color: black;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.butt_icon {
+    margin-left: 0.5rem;
+}
+
+.butt_flex {
+    display: inline-flex;
+    align-items: center;
+}
+
+/* SCREEN CONFIG */
+
+@media screen and (max-width: 992px){
+    .cont {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .butt {
+        padding: 1rem 1.75rem;
+    }
+
+    .butt_icon {
+        width: 22px;
+        height: 22px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    body {
+        margin: 0 0 var(--header-height) 0;
+    }
+    .section {
+        padding: 2rem 0 4rem;
+    }
+
+    .section_subtitle {
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 576px){
+    
+}
+
+@media screen and (max-width: 350px){
+    .cont {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}

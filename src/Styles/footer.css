@@ -1,0 +1,107 @@
+.footer {
+    background-color: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.foot_cont {
+    grid-template-columns: repeat(1, max-content);
+    justify-content: center;
+    padding: 2rem 0 6rem;
+}
+
+.foot_title, .foot_link {
+    color: #4a4b4b;
+}
+
+.foot_title {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.foot_link:hover {
+    color: black;
+}
+
+.foot_list {
+    display: grid;
+    column-gap: 1.5rem;
+    margin-bottom: 2rem;
+    grid-template-columns: repeat(4, max-content);
+    justify-content: center;
+}
+
+.foot_sosmed {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.25rem;
+}
+
+.foot_sosmed-link {
+    background-color: #4a4b4b;
+    color: white;
+    font-size: 1.25rem;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    display: inline-flex;
+}
+
+.foot_sosmed-link:hover {
+    background-color: black;
+}
+
+.foot_copy {
+    display: block;
+    margin-top: 4.5rem;
+    color: black;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+.PCHidden {
+    display: none;
+}
+
+/* SCREEN CONFIG */
+
+@media screen and (max-width: 992px){
+    .foot_sosmed-link {
+        padding: 0.25rem;
+        border-radius: 0.25rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 410px){
+    
+}
+
+@media screen and (max-width: 768px){
+
+    .PCHidden {
+        display: block;
+    }
+
+    .MobHidden {
+        display: none;
+        width: 0;
+    }
+
+}
+
+@media screen and (max-width: 576px){
+    
+}
+
+@media screen and (max-width: 350px){
+    .foot_list {
+        grid-template-columns: repeat(2, 100px);
+        row-gap: 0.5rem;
+        text-align: center;
+        margin-right: 7%;
+    }
+
+    .foot_title {
+        margin-left: 2%;
+    }
+}
