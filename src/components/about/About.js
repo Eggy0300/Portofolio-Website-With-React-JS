@@ -18,7 +18,7 @@ const About = () => {
 
                     <p className="about_desc">
                     I'm an enthusiastic person who can learn quickly and easy to adapt. I love to search and explore something new. I’m active in projects, organizations, and activities on my campus. But also, I have really good responsibility and focus when I have a job to do. I do love to help others and I can work professionally in a team, collaboration, and support each other.
-                    My goal is to become a backend developer and data engineer.
+                    My goal is to become a backend developer but i can also do frontend development.
                     </p>
 
                     <a download="" href={CV} className="butt butt_flex">Download CV</a>
