@@ -24,23 +24,19 @@ const Experience = () => {
                     <div className={active === 1 ? "expe_content expe_content-active" : "expe_content"}>
                     <div className="expe_data">
                             <div>
+                                <span className="expe_rounder"></span>
+                                <span className="expe_line"></span>
+                            </div>
+                            <div>
                                 <h3 className="expe_title">Laboratory Assistant for Algorithm and Data Structure</h3>
                                 <span className="expe_subtitle">Universitas Multimedia Nusantara</span>
                                 <div className="expe_calendar">
                                     <i className="uil uil-calendar-alt"></i> Feb 2023 - Present
                                 </div>
                             </div>
-                            <div>
-                                <span className="expe_rounder"></span>
-                                <span className="expe_line"></span>
-                            </div>
+                            
                         </div>
                         <div className="expe_data">
-                            <div></div>
-                            <div>
-                                <span className="expe_rounder"></span>
-                                <span className="expe_line"></span>
-                            </div>
                             <div>
                             <h3 className="expe_title">Laboratory Assistant for Introduction to Internet Technology</h3>
                                 <span className="expe_subtitle">Universitas Multimedia Nusantara</span>
@@ -48,18 +44,22 @@ const Experience = () => {
                                     <i className="uil uil-calendar-alt"></i> Feb 2022 - Present
                                 </div>
                             </div>
+                            <div>
+                                <span className="expe_rounder"></span>
+                                <span className="expe_line"></span>
+                            </div>
                         </div>
                         <div className="expe_data">
+                            <div>
+                                <span className="expe_rounder"></span>
+                                <span className="expe_line"></span>
+                            </div>
                             <div>
                             <h3 className="expe_title">Laboratory Assistant for Introduction to Multimedia Technology</h3>
                                 <span className="expe_subtitle">Universitas Multimedia Nusantara</span>
                                 <div className="expe_calendar">
                                     <i className="uil uil-calendar-alt"></i> Feb 2022 - Present
                                 </div>
-                            </div>
-                            <div>
-                                <span className="expe_rounder"></span>
-                                <span className="expe_line"></span>
                             </div>
                         </div>
                         <div className="expe_data">
@@ -76,7 +76,6 @@ const Experience = () => {
                             </div>
                         </div>
                         <div className="expe_data">
-                            <div></div>
                             <div>
                                 <span className="expe_rounder"></span>
                                 <span className="expe_line"></span>
