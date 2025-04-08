@@ -25,4 +25,6 @@ const App = () => {
   )
 }
 
+// HANS BABIIIII BISA GAK YA
+
 export default App;
